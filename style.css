@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #FFFFE4;
+  color: #2D2D12;
+  font-family: "IBM Plex Sans";
+  overflow-x: hidden;
+}
+
+#hero{
+  background-image: url('img/tarnos.jpg');
+  background-size: cover;
+  height: 75vh;
+  border-radius: 0 0 50px 50px;
+  display: flex;
+  justify-content: center;
+  width: 99vw;
+  margin: auto;
+}
+
+#logo{
+  width: 400px;
+  margin-top: -150px;
+}
+
+.main{
+  width: 1200px;
+  margin: auto;
+}
+
+.flexer{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .flexer h1{
+  color: #53603E;
+  width: 700px;
+  font-size: 2.5em;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+header .flexer p{
+  width: 450px;
+  text-align: justify;
+  margin: 13px 0 0 0;
+}
+
+header .flexer{
+  margin-top: 25px;
+  border-bottom: 3px solid #2D2D12;
+  padding-bottom: 30px;
+}
+
+#programme{
+  margin-top: 25px;
+  border-bottom: 3px solid #2D2D12;
+}
+
+#progSvg{
+  height: 200px;
+  margin: 15px 50px 35px 35px;
+}
+
+#progLeft{
+  width: 700px;
+  justify-content: start;
+}
+
+#progRight{
+  width: 450px;
+}
+
+.firstLine{
+  margin-top: 25px;
+  justify-content: flex-start;
+}
+
+.firstLine p:first-child{
+  width: 130px;
+  font-weight: 300;
+}
+
+.firstLine p{
+  margin: 0;
+  font-weight: 600;
+}
+
+.secondLine p{
+  margin: 0 0 0 130px;
+  color: #53603E;
+}
+
+#collage{
+  padding: 30px 0;
+}
+
+#collage p{
+  width: 700px;
+  margin: 0
+}
+
+#collage img{
+  width: 450px;
+}
+
+h2{
+  border-bottom: 3px solid #2D2D12;
+  border-top: 3px solid #2D2D12;
+  padding: 15px 0;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#conf{
+  padding-bottom: 100px;
+}
+
+.conf{
+  margin-top: 25px;
+  display: flex;
+  padding-bottom: 30px;
+  background: #53603E;
+  color: #FFFFE4;
+}
+
+.time{
+  font-weight: 200;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.title{
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.time, .title{
+  font-size: 2em;
+}
+
+.people{
+  font-size: 1.4em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.conf a{
+  color: #FFFFE4;
+  text-decoration: none;
+  padding: 3px 50px;
+  border: 1px solid #FFFFE4
+}
+
+.conf a:hover{
+  color: #53603E;
+  background: #FFFFE4;
+}
+
+.about{
+  margin-left: 175px;
+}
+
+#people{
+  display: flex;
+  margin-left: 175px;
+}
+
+#people a{
+  color: #2D2D12;
+}
+
+#people img{
+  background: #2D2D12;
+  width: 150px;
+  height: 200px;
+  margin-right: 25px;
+}
+
+.bio{
+  display: flex;
+}
+
+#people p{
+  margin: 0 0 10px;
+}
+
+.bio div{
+  width: 200px;
+}
