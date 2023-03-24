@@ -302,6 +302,10 @@ h2{
   #people .bio p{
     width: 40vw;
   }
+
+  #seawall {
+    margin-top: 10vh;
+  }
 }
 
 #seawall{
