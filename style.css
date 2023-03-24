@@ -303,3 +303,10 @@ h2{
     width: 40vw;
   }
 }
+
+#seawall{
+  margin-top: -10vh;
+  width: 60vw;
+  right: 0;
+  position: fixed;
+}
