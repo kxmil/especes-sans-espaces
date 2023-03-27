@@ -195,6 +195,13 @@ h2{
   width: 200px;
 }
 
+#seawall{
+  margin-top: -10vh;
+  width: 60vw;
+  right: 0;
+  position: fixed;
+}
+
 @media screen and (max-width: 900px) {
   #logo{
     width: 300px;
@@ -306,11 +313,4 @@ h2{
   #seawall {
     margin-top: 10vh;
   }
-}
-
-#seawall{
-  margin-top: -10vh;
-  width: 60vw;
-  right: 0;
-  position: fixed;
 }
