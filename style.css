@@ -4,6 +4,13 @@ html, body{
   overflow-x: hidden;
 }
 
+button{
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -61,11 +68,12 @@ header .flexer{
 #programme{
   margin-top: 25px;
   border-bottom: 3px solid #2D2D12;
+  padding-bottom: 15px;
 }
 
 #progSvg{
   height: 200px;
-  margin: 15px 50px 35px 35px;
+  margin: 45px 50px 35px 35px;
 }
 
 #progLeft{

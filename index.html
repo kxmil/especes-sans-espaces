@@ -8,19 +8,24 @@
   </head>
   <body>
     <canvas id="seawall"></canvas>
+    <button>EN/FR</button>
     <header>
       <div id="hero">
-        <img id="logo" src="img/logo.svg">
+        <img id="logo" src="img/logo_en.svg">
       </div>
       <div class="flexer main">
-        <h1>Journée d’étude dans le cadre du Laboratoire Modulaire 2022/2023</h1>
-        <p>Pour cette journée d'étude autour du projet Espèces Sans Espaces, Thomas Pausz invite des intervenants dont les pratiques interdisciplinaires utilisent la fiction écologique (ou éco fiction) comme moteur de recherche et de création.</p>
+        <h1 data-i18n-key="h1">Journée d’étude dans le cadre du Laboratoire Modulaire 2022/2023</h1>
+        <p data-i18n-key="header-p">Pour cette journée d'étude autour du projet Espèces Sans Espaces, Thomas Pausz invite des intervenants dont les pratiques interdisciplinaires utilisent la fiction écologique (ou éco fiction) comme moteur de recherche et de création.</p>
       </div>
     </header>
     <section id="programme" class="main flexer">
       <div id="progLeft" class="flexer">
         <img id="progSvg" src="img/prog.svg" />
         <div >
+          <div class="firstLine flexer">
+            <p>9h30 – 10h00</p>
+            <p style="font-weight :300">Accueil</p>
+          </div>
           <div class="firstLine flexer">
             <p>10h00 - 10h30</p>
             <p>Écofictions & Média Interespèces</p>
@@ -29,11 +34,15 @@
             <p>Thomas Pausz</p>
           </div>
           <div class="firstLine flexer">
-            <p>10h45 – 11h15</p>
+            <p>10h30 – 11h00</p>
             <p>Penser avec les plantes rudérales</p>
           </div>
           <div class="secondLine">
             <p>Teresa CASTRO</p>
+          </div>
+          <div class="firstLine flexer">
+            <p>11h00 - 11h15</p>
+            <p style="font-weight :300">Pause</p>
           </div>
           <div class="firstLine flexer">
             <p>11h15 – 11h45</p>
@@ -46,26 +55,38 @@
       </div>
       <div id="progRight">
         <div class="firstLine flexer">
-          <p>12h30 - 14h00</p>
-          <p style="font-weight :300">Pause méridienne</p>
+          <p>11h15 – 11h45</p>
+          <p>Discussion modérée</p>
         </div>
         <div class="secondLine">
-          <p style="color:#FFFFE4">-</p>
+          <p>Thomas Pausz</p>
         </div>
         <div class="firstLine flexer">
-          <p>14h00 – 14h30</p>
+          <p>12h30 - 14h30</p>
+          <p style="font-weight :300">Pause méridienne</p>
+        </div>
+        <div class="firstLine flexer">
+          <p>14h30 – 15h00</p>
           <p>Mise en récit de l'écologie</p>
         </div>
         <div class="secondLine">
           <p>Pauline BRIAND</p>
         </div>
         <div class="firstLine flexer">
-          <p>14h30 – 15h00</p>
+          <p>15h00 – 15h30</p>
           <p>Fiction & Interactions</p>
         </div>
         <div class="secondLine">
           <p>Kamil IZARET</p>
-        </div></div>
+        </div>
+        <div class="firstLine flexer">
+          <p>15h30 – 16h00</p>
+          <p style="font-weight :300">Échanges avec le public</p>
+        </div>
+        <div class="secondLine">
+          <p style="color:#FFFFE4">-</p>
+        </div>
+      </div>
     </section>
     <section id="collage" class="main flexer">
       <p>Le projet Espèces Sans Espaces s’inscrit dans la pratique artistique de Thomas Pausz, qui vise à proposer de nouvelles formes de narrations de l’environnement et des relations inter-espèces par la création d'écosystèmes médiatiques mêlant travail documentaire, fiction et création numérique. La démarche de Pausz est relationnelle, et multiplie les points de vue, les changements d’échelles et de temporalités pour composer une experience contemporaine du paysage 'plus qu’humain'.
@@ -117,11 +138,10 @@
       </div>
     </section>
     <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
-    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/controls/OrbitControls.js"></script>
     <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/LoaderSupport.js"></script>
     <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/OBJLoader2.js"></script>
     <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/MTLLoader.js"></script>
-    <!-- partial -->
-    <script  src="./three.js"></script>
+    <script src="./three.js"></script>
+    <script src="./locale.js"></script>
   </body>
 </html>
