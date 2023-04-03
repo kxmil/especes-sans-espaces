@@ -20,7 +20,7 @@ const translations = {
 
     "h1": "Journée d’étude dans le cadre du Laboratoire Modulaire 2022/2023",
 
-    "header-p": "Pour cette journée d'étude autour du projet Espèces Sans Espaces, Thomas Pausz invite des intervenants dont les pratiques interdisciplinaires utilisent la fiction écologique (ou éco fiction) comme moteur de recherche et de création.",
+    "header-p": "Pour cette journée d'études autour du projet Espèces Sans Espaces, Thomas Pausz invite des intervenants dont les pratiques interdisciplinaires utilisent la fiction écologique (ou éco fiction) comme moteur de recherche et de création.",
 
   },
 

@@ -126,8 +126,16 @@ h2{
   font-weight: 600;
 }
 
-#conf{
-  padding-bottom: 100px;
+footer p{
+  margin: 0;
+}
+
+footer{
+  padding: 50px 0;
+}
+
+footer a{
+  color: #53603E;
 }
 
 .conf{
@@ -173,11 +181,15 @@ h2{
 
 .about{
   margin-left: 175px;
+  margin-right: 175px;
+  text-align: justify;
 }
 
 #people{
   display: flex;
   margin-left: 175px;
+  margin-right: 175px;
+  text-align: justify;
 }
 
 #people a{
@@ -210,7 +222,18 @@ h2{
   position: fixed;
 }
 
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 900px) {
+
+  footer{
+    flex-direction: column;
+    height: 30vh;
+  }
+
   #logo{
     width: 300px;
     margin-top: -300px;
@@ -284,6 +307,7 @@ h2{
 
   .title{
     font-size: 1.4em;
+    margin-right: 30px;
   }
 
   .people{
