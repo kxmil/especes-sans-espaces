@@ -182,14 +182,12 @@ footer a{
 .about{
   margin-left: 175px;
   margin-right: 175px;
-  text-align: justify;
 }
 
 #people{
   display: flex;
   margin-left: 175px;
   margin-right: 175px;
-  text-align: justify;
 }
 
 #people a{
@@ -222,9 +220,17 @@ footer a{
   position: fixed;
 }
 
+#collage p{
+  margin: 1rem 0
+}
+
 footer{
   display: flex;
   justify-content: space-between;
+}
+
+footer p{
+  width: 50%;
 }
 
 @media screen and (max-width: 900px) {
