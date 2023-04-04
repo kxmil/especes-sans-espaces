@@ -13,7 +13,7 @@ const translations = {
     "header-p": "For this study day around the project Species Without Spaces, Thomas Pausz invites speakers whose interdisciplinary practices use ecological fiction (or eco-fiction) as an engine for research and creation.",
 
 
-    "sch-1": "Reception", "sch-2": "Ecofictions & Interspecies Media", "sch-3": "Thinking with the ruderal plants",
+    "sch-1": "Reception", "sch-2": "Ecofictions & Interspecies Media", "sch-3": "Thinking with ruderal plants",
     "sch-4": "Break", "sch-5": "Personal development for houseplants", "sch-6": "Moderated discussion",
     "sch-7": "Lunch Break","sch-8": "Name, describe, plot, tell, feel", "sch-9": "Discussion with the audience",
 
